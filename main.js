@@ -97,6 +97,7 @@ function draw(command){
   {
     for (i=0; i<=to_number;i++){
       Rng = Math.floor(Math.random());
+      
       x = Rng * 700
       y = Rng * 400
       console.log("(",x,y,")")
@@ -111,6 +112,7 @@ function draw(command){
   } else if(command == "circle"){
     for (i=0; i<=to_number;i++){
       Rng = Math.floor(Math.random());
+      console.log("Rng no.:", Rng)
       x = Rng * 700
       y = Rng * 400
       console.log("(",x,y,")")
