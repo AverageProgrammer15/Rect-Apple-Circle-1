@@ -99,7 +99,7 @@ function draw(command){
       Rng = Math.floor(Math.random());
       x = Rng * 700
       y = Rng * 400
-      
+      console.log("(",x,y,")")
       image(apple, x, y, 50,50)
       speak_data = "Drawn an apple"
 
@@ -113,6 +113,7 @@ function draw(command){
       Rng = Math.floor(Math.random());
       x = Rng * 700
       y = Rng * 400
+      console.log("(",x,y,")")
       
       circle(x, y, 25)
       speak_data = "Drawn a circle"
@@ -125,6 +126,7 @@ function draw(command){
       Rng = Math.floor(Math.random());
       x = Rng * 700
       y = Rng * 400
+      console.log("(",x,y,")")
       
       rect(x,y,55,40)
       speak_data = "Drawn a rectangle"
